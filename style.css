@@ -1,0 +1,49 @@
+body{
+    margin : 0 auto;
+}
+
+/* Accueil */
+
+.top-page{
+    background:url(./img/ENIB.jpg) ;
+    background-size: cover;
+    height :60vh;
+    
+}
+
+.top-page header {
+    display:flex;
+    align-items:center;
+    padding: 10px;
+
+}
+
+.top-page header img{
+    width : 150px;
+}
+
+.landing-page{
+
+}
+
+.big-title{
+    font-size: 50px;
+    color : white;
+}
+
+/* Navigation */
+
+nav.nav{
+    list-style: none;
+    display: flex;
+    width: 85vh;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+nav.nav li{
+    font-size: 25px;
+    color:white;
+}
